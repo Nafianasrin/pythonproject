@@ -1,0 +1,7 @@
+a=int(input('Enter the value of a '))
+b=int(input('Enter the value of b'))
+c=int(input('Enter the value of c'))
+print(a,'x^2+',b,'x+',c,'=0')
+result1=(-b+(((b**2)-(4*a*c))**0.5))/(2*a)
+result2=(-b-(((b**2)-(4*a*c))**0.5))/(2*a)
+print(f"{result1} or {result2}")
